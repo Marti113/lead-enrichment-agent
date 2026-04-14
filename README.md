@@ -25,3 +25,7 @@ I wanted to understand how GTM enrichment tools like Clay work under the hood. I
 
 1. Clone the repo
 2. Create a virtual environment and install dependencies:
+3. Create a `.env` file with your API keys:
+4. Add your Google service account `credentials.json` to the project folder
+5. Share your Google Sheet with the service account email
+6. Add company names to column A of your sheet and run: python3 agent.py
